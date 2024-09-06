@@ -1,0 +1,59 @@
+body{
+    color: white;
+    background: black;
+    margin: 0px;
+    font-family: "Playwrite IT Moderna", cursive;
+    margin-bottom: 100px;
+}
+
+header{
+    border-bottom: solid 2px red;
+    padding: 20px;
+    font-size: 32px;
+    color: red (0, 37, 49) (255, 0, 149);
+}
+
+.chamada {
+    background-color: rgb(1, 9, 82);
+    padding-bottom: 80px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.chamado-texto {
+    margin-right: 5%;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+P {
+    font-size: 20px;
+}
+img{
+    height: 200px;
+}
+
+.categoria-videos {
+     display: flex;
+     overflow-x: auto;
+     gap: 10px;
+}
+ .categoria{
+    padding-left: 20px;
+    padding-right: 20px;
+
+ }
+ .categoria-videos img{
+    opacity: 0.5;
+ }
+ .categoria-videos img:hover {
+    opacity: 1.0;
+    border:5px solid green;
+ }
+
+ .categoria h2 {
+    color: rgb(42,122,128)
+ }
